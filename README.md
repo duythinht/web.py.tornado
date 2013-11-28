@@ -14,3 +14,12 @@ Sample project Web.py with Tornado Server
 Application run on follow url
 
     http://localhost:8000/
+
+### Application structure:
+
+    /
+        /bootstrap.py   # Bootstrap runtime configuration for project
+        /routes.py      # Applicatio routings
+        /app            # Application Handlers folder
+            /...        # Handlers modules
+        /pi_server.py   # Tornado Initial Server
