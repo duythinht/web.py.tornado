@@ -1,7 +1,7 @@
 web.py.tornado
 ==============
 
-Sample project Web.py with Tornado Server
+Integrate Web.py to Tornado Server
 
 ### Setup virtualenv & install pip dependencies
 
