@@ -1,6 +1,3 @@
-from app.index import Welcome
-
-
 urls = (
-    '/', 'Welcome'
+    '/', 'app.index.Welcome'
 )
