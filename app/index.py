@@ -1,8 +1,8 @@
 from json import dumps
 
-class Welcome:
+class Greeting:
     def GET(self):
-        return 'Hello'
+        return 'Hello, World'
 
     def POST(self):
         post_data = web.input()
